@@ -4,10 +4,17 @@ using System.Text;
 
 namespace EducationManager.Data.Entities
 {
-    public class Student_fee
+    public class Exam
     {
         public int Id { set; get; }
+        public DateTime Date { set; get; }
+        public int Classroom { set; get; }
+        public string Time { set; get; }
+        public DateTime Create_Date { set; get; }
+
         public int User_Id { set; get; }
         public int Course_Id { set; get; }
+
+        public Course Course { get; set; }
     }
 }

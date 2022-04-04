@@ -9,6 +9,6 @@ namespace EducationManager.Data.Entities
         public int Id { set; get; }
         public string Name { set; get; }
         public string Content { set; get; }
-        public DateTime Date { set; get; }
+        public DateTime Create_Date { set; get; }
     }
 }

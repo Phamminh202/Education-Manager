@@ -4,11 +4,12 @@ using System.Text;
 
 namespace EducationManager.Data.Entities
 {
-    public class Courser
+    public class Semester
     {
         public int Id { set; get; }
         public string Name { set; get; }
-        public decimal Fee { set; get; }
-        public string Description { set; get; }
+
+        public List<Mark> Marks { set; get; }
+        public StudentFee StudentFee { set; get; }
     }
 }
