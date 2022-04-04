@@ -11,5 +11,8 @@ namespace EducationManager.Data.Entities
         public int User_Id { set; get; }
         public string Classroom { set; get; }
         public int Qty { set; get; }
+
+        public List<Mark> Marks { get; set; }
+        public List<TimetableInClass> TimetableInClasses { get; set; }
     }
 }
