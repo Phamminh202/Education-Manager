@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EducationManager.API", "EducationManager.API\EducationManager.API.csproj", "{94C50D92-95BB-4A6A-A9ED-63CE0CFCAF50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EducationManager.API", "EducationManager.API\EducationManager.API.csproj", "{94C50D92-95BB-4A6A-A9ED-63CE0CFCAF50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EducationManager.WebApp", "EducationManager.WebApp\EducationManager.WebApp.csproj", "{225E7503-23BC-4E00-AC31-6013DD917042}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EducationManager.Student", "EducationManager.Student\EducationManager.Student.csproj", "{4EF99129-2839-45F5-82A4-2FCC0AE08068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EducationManager.Teacher", "EducationManager.Teacher\EducationManager.Teacher.csproj", "{E7F0A3D0-DB32-4BD0-A10E-CCF57AF448BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EducationManager.Admin", "EducationManager.Admin\EducationManager.Admin.csproj", "{23433C2B-B45F-45DF-94F6-76D87815E346}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +21,18 @@ Global
 		{94C50D92-95BB-4A6A-A9ED-63CE0CFCAF50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94C50D92-95BB-4A6A-A9ED-63CE0CFCAF50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94C50D92-95BB-4A6A-A9ED-63CE0CFCAF50}.Release|Any CPU.Build.0 = Release|Any CPU
-		{225E7503-23BC-4E00-AC31-6013DD917042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{225E7503-23BC-4E00-AC31-6013DD917042}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{225E7503-23BC-4E00-AC31-6013DD917042}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{225E7503-23BC-4E00-AC31-6013DD917042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EF99129-2839-45F5-82A4-2FCC0AE08068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF99129-2839-45F5-82A4-2FCC0AE08068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EF99129-2839-45F5-82A4-2FCC0AE08068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EF99129-2839-45F5-82A4-2FCC0AE08068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7F0A3D0-DB32-4BD0-A10E-CCF57AF448BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F0A3D0-DB32-4BD0-A10E-CCF57AF448BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F0A3D0-DB32-4BD0-A10E-CCF57AF448BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F0A3D0-DB32-4BD0-A10E-CCF57AF448BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23433C2B-B45F-45DF-94F6-76D87815E346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23433C2B-B45F-45DF-94F6-76D87815E346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23433C2B-B45F-45DF-94F6-76D87815E346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23433C2B-B45F-45DF-94F6-76D87815E346}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
