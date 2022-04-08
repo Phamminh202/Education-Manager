@@ -8,6 +8,10 @@ namespace EducationManager.API.Models
 {
     public partial class educationmanagerContext : DbContext
     {
+        /*public educationmanagerContext()
+        {
+        }*/
+
         public educationmanagerContext(DbContextOptions<educationmanagerContext> options)
             : base(options)
         {
