@@ -28,7 +28,7 @@ namespace EducationManager.API.Controllers
 
         // GET: api/Exams/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Exam>> GetCategory(int id)
+        public async Task<ActionResult<Exam>> GetExam(int id)
         {
             var exam = await _context.Exams.FindAsync(id);
 
