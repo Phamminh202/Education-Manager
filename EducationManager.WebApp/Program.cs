@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EducationManager.API
+namespace EducationManager.WebApp
 {
     public class Program
     {
