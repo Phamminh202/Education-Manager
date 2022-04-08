@@ -8,4 +8,5 @@
     <ProjectReference Include="..\EducationManager.Data\EducationManager.Data.csproj" />
   </ItemGroup>
 
+
 </Project>
