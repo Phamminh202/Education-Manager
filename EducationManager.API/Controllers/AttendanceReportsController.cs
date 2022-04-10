@@ -26,7 +26,7 @@ namespace EducationManager.API.Controllers
         }
         // GET: api/AttendanceReports/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<AttendanceReport>> GetAttendanceReports(int id)
+        public async Task<ActionResult<AttendanceReport>> GetAttendanceReport(int id)
         {
             var attendancereport = await _context.AttendanceReports.FindAsync(id);
 
@@ -41,7 +41,7 @@ namespace EducationManager.API.Controllers
         // POST: api/AttendanceReports
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<AttendanceReport>> PostAttendanceReports(AttendanceReport attendancereport)
+        public async Task<ActionResult<AttendanceReport>> PostAttendanceReport(AttendanceReport attendancereport)
         {
             _context.AttendanceReports.Add(attendancereport);
             await _context.SaveChangesAsync();
